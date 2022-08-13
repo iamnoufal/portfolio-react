@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+
+@font-face {
+  font-family: abeezee;
+  src: url('assets/fonts/ABeeZee-Italic.ttf');
+}
+
+@font-face {
+  font-family: grandhotel;
+  src: url('assets/fonts/GrandHotel-Regular.ttf');
+}
+
+@font-face {
+  font-family: joan;
+  src: url('assets/fonts/Joan-Regular.ttf');
+}
+
+.bg-lightblue {
+  background-color: #AEE8E2 !important;
+}
+
+.bg-darkblue {
+  background-color: #018891 !important;
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+
+.text-lightblue {
+  color: #AEE8E2 !important;
+}
+
+.text-darkblue {
+  color: #018891 !important;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.abeezee {
+  font-family: abeezee !important;
+}
+
+.grandhotel {
+  font-family: grandhotel !important;
+}
+
+.lora {
+  /* font-family: joan !important; */
+  font-family: "Lora" !important;
+}
