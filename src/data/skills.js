@@ -1,16 +1,24 @@
-const skillsData = {
-  labels: [
-    "Newbie",
-    "Geek",
-    "Ninja",
-    "Jedi"
-  ],
-  data: [{
-    datasets: [{
-      data: [20, 10],
-    }],
-    labels: ['a', 'b']
-  }]
-}
+const skillsData = [
+  {
+    name: "Googling",
+    level: "95%",
+  },
+  {
+    name: "Drawing",
+    level: "55%",
+  },
+  {
+    name: "Coding",
+    level: "75%"
+  },
+  {
+    name: "Problem Solving",
+    level: "75%",
+  },
+  {
+    name: "Organizing",
+    level: "35%"
+  }
+]
 
 export default skillsData

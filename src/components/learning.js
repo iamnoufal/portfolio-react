@@ -11,9 +11,9 @@ const LearningsComponent = () => {
   return (
     <Box sx={{ p:4 }} className='bg-lightblue' id='learnings'>
     {/* <Timeline position={timelinePosition} id='skills'> */}
-      <Typography variant='h4' component='div' className="text-darkblue lora" textAlign={'center'} sx={{my:2}}><Tag>Learnings</Tag></Typography>
+      <Typography variant='h4' component='div' className="text-darkblue lora" textAlign={'center'} my={2}><Tag>Learnings</Tag></Typography>
       <Comment>What we know is the least we can learn</Comment>
-      <Box style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+      <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
         {learningsData.map((skill) => {
           const cardMargin = {
             true: skill.full===true ? 1 : 5,
