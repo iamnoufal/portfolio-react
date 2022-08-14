@@ -51,3 +51,6 @@
   /* font-family: joan !important; */
   font-family: "Lora" !important;
 }
+
+#projects>div::-webkit-scrollbar {height: 10px}
+#projects>div::-webkit-scrollbar-thumb {background-color: #AEE8E2;}

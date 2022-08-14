@@ -3,6 +3,7 @@ import SchoolIcon from '@mui/icons-material/School';
 import CodeIcon from '@mui/icons-material/Code';
 import DevicesIcon from '@mui/icons-material/Devices';
 import ContactPageIcon from '@mui/icons-material/ContactPage'; 
+import SentimentSatisfiedAltIcon from '@mui/icons-material/SentimentSatisfiedAlt';
 
 const timelineData = [
   {
@@ -21,6 +22,12 @@ const timelineData = [
     year: 'Since 2016',
     icon: <CodeIcon />,
     param: 'learnings'
+  },
+  {
+    name: 'Skills',
+    year: 'All time',
+    icon: <SentimentSatisfiedAltIcon />,
+    param: 'skills'
   },
   {
     name: 'Projects',

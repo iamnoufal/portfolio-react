@@ -13,8 +13,8 @@ const AboutComponent = () => {
           <Typography variant="body1" component='div' sx={{ mb: 2 }}>Today with all the things I need in my hand, I'm efficiently learning and researching much more on the effective working of websites and servers. I believe together we can make the internet a safer place for everyone.</Typography>
           <Typography variant="body1" component='div' sx={{ mb: 2 }}></Typography>
           <Stack spacing={2} direction='row'>
-            <Button variant='contained' className='text-darkblue bg-lightblue'>hire me</Button>
-            <Button variant='contained' className='text-darkblue bg-lightblue'>see my timeline</Button>
+            <Button variant='contained' className='text-darkblue bg-lightblue' href="mailto:iam@noufal.me" target="_blank">hire me</Button>
+            <Button variant='contained' className='text-darkblue bg-lightblue' href="tel:+918610023136" target="_blank">get me on call</Button>
           </Stack>
         </Paper>
       </ScrollFade>

@@ -27,7 +27,7 @@ const TimelineSpeedDialComponent = () => {
           onOpen={handleTimelineOpen}
           open={open}
         >
-          {timelineData.map((list) => <SpeedDialAction key={list.name} icon={list.icon} tooltipTitle={list.name} tooltipOpen onClick={() => handleTimelineClose(`${list.param}`)} />)}
+          {timelineData.reverse().map((list) => <SpeedDialAction key={list.name} icon={list.icon} tooltipTitle={list.name} tooltipOpen onClick={() => handleTimelineClose(`${list.param}`)} />)}
         </SpeedDial>
       </Box>)}
     </Box>

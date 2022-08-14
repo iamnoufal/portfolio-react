@@ -18,6 +18,10 @@ const skillsData = [
   {
     name: "Organizing",
     level: "35%"
+  },
+  {
+    name: "Cooking",
+    level: "20%"
   }
 ]
 
